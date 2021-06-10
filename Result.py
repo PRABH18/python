@@ -13,6 +13,7 @@ print("sum=",sum)
 per=sum/6
 print("percentage",per)
 if per>60:
+
     if per>=45:
         print("First Division")
     else:
