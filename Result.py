@@ -10,16 +10,13 @@ print("hindi",hindi, "english",english,"math",math, "computer",computer, "physic
 
 sum=hindi+english+math+computer+physics+chemistry
 print("sum=",sum)
-per=sum/6
+per=(sum*100)/600
 print("percentage",per)
-if per>60:
-
-    if per>=45:
-        print("First Division")
-    else:
-        print("Third Division")
-elif per>=33:
-    print("Sec Division")
-else:
-    print("Fail")
-
+if per<33:
+    print("You are Fail")
+elif per>=33 and per<45:
+    print("You are Passed Third division")
+elif per>=45 and per<60:
+    print("You are Passed second division")
+elif per>=60:
+    print("You are Passed First division")
