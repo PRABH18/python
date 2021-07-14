@@ -24,3 +24,8 @@ if i==j:
     print("yes its armstrong no")
 else:
     print("its not armstrong no")
+
+    self.color_menu = Menu(self.main_menu, tearoff=False)
+    self.main_menu.add_cascade(label="Color", menu=self.file_menu)
+    self.color_menu.add_command(label="Background color", command=self.change_bgcolor)
+    self.color_menu.add_command(label="Fore ground color", command=self.change_fgcolor)
