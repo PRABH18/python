@@ -329,7 +329,7 @@ def addItemWindow():
     updateButton.grid(row=4, column=3, columnspan=1)
 
     deleteButton = Button(singh, text="Delete", width=20, height=2, bd=4, fg="white", bg="green", command=deleteitem)
-    deleteButton.grid(row=4, column=3, columnspan=1)
+    deleteButton.grid(row=5, column=3, columnspan=1)
 
     logoutButton = Button(singh, text="Logout", width=20, height=2, bd=5, fg="white", bg="green", command=logout)
     logoutButton.grid(row=3, columnspan=1)
